@@ -1,3 +1,2 @@
 baseurl: 
-	"/blog" # the subpath of your site, e.g. /puff
-include: [_layouts]
+	"/puff" # the subpath of your site, e.g. /puff
