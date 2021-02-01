@@ -1,2 +1,1 @@
-baseurl: 
-	"/puff" # the subpath of your site, e.g. /puff
+baseurl: "/puff" # the subpath of your site, e.g. /puff
