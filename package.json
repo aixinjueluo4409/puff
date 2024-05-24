@@ -1,0 +1,10 @@
+{
+  "name": "puff",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "./setup.sh && jekyll build"
+  },
+  "dependencies": {
+    "jekyll": "^4.2.0"
+  }
+}

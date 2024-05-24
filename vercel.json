@@ -4,8 +4,5 @@
       "src": "index.html",
       "use": "@vercel/static"
     }
-  ],
-  "scripts": {
-    "build": "./setup.sh && jekyll build"
-  }
+  ]
 }
