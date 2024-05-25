@@ -3,6 +3,14 @@
     {
       "src": "index.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "trunk01/index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "trunk02/index.html",
+      "use": "@vercel/static"
     }
   ],
   
@@ -10,6 +18,14 @@
     {
       "source": "/(.*)",
       "destination": "/index.html"
+    },
+    {
+        "source": "/trunk01/index.html",
+      "destination": "/trunk01/index.html"
+    },
+    {
+      "source": "/trunk01/index.html",
+      "destination": "/trunk01/index.html"
     }
   ]
 }
