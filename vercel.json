@@ -16,10 +16,6 @@
   
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    },
-    {
         "source": "/trunk01/index.html",
       "destination": "/trunk01/index.html"
     },
