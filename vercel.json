@@ -1,0 +1,27 @@
+{
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  
+  "redirects": [
+    {
+      "source": "/trunk01",
+      "destination": "/trunk01/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/trunk02",
+      "destination": "/trunk02/index.html",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
