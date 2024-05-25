@@ -12,16 +12,5 @@
       "src": "trunk02/index.html",
       "use": "@vercel/static"
     }
-  ],
-  
-  "rewrites": [
-    {
-        "source": "/trunk01/index.html",
-      "destination": "/trunk01/index.html"
-    },
-    {
-      "source": "/trunk01/index.html",
-      "destination": "/trunk01/index.html"
-    }
   ]
 }
